@@ -78,3 +78,13 @@ body {
 #message-form button:hover {
     background-color: #075E54;
 }
+
+/* مثال لتغيير لون خلفية الاسم، يجب تطبيقه على العنصر الذي يحمل اسم المستخدم */
+.username {
+    background-color: #33cc66; /* لون أخضر جميل للخلفية */
+    color: white; /* لون أبيض للنص */
+    padding: 2px 5px; /* مسافة داخلية حول الاسم */
+    border-radius: 4px; /* زوايا مستديرة */
+    font-weight: bold; /* خط عريض */
+    margin-left: 5px; /* مسافة بين الاسم وبقية الرسالة */
+}
